@@ -9,4 +9,4 @@ Here are the list of resources that I am using to learn:
 2. https://www.udemy.com/share/101qYw3@895CZH8WUgJxS7_80SQGWcn3MTsvag6mOaF8UGQOkPKbA1olPnJpNHrbYLyCCPONQw==/
 3. https://www.freecodecamp.org/news/author/joy/
 
-I hope if helps for any one who wants to learn full stack development
+I hope it helps for any one who wants to learn full stack development
