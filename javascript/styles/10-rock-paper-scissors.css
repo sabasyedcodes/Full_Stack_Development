@@ -2,7 +2,14 @@ body {
   background-color: rgb(25, 25, 25);
   color: white;
   font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  padding: auto;
 }
+
+
 
 .title {
   font-size: 30px;
@@ -17,8 +24,8 @@ body {
   background-color: transparent;
   border: 3px solid white;
   width: 100px;
-  height: 120px;
-  border-radius: 60px;
+  height: 100px;
+  border-radius: 100px;
   margin-right: 10px;
   cursor: pointer;
 }
