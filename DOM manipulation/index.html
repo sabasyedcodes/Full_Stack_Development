@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM manipulation</title>
+  <style>
+    body{
+      background: rgb(238,174,202);
+      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      
+    }
+    #main-heading{
+      color: cornflowerblue;
+    
+    }
+    
+    .container {
+      border: 2px solid white;
+      padding: 20px;
+    }
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+    .list-items{
+      background-color: white;
+      color: lightskyblue;
+      margin: 10px ;
+      padding: 20px;
+      border: 2px solid #eeaeca;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="main-heading">Favourite Movie Franchise</h1>
+    <!--space between-->
+    <ul>
+      <li class="list-items">
+        <span>Neo</span>
+        Forrest Gump</li>
+      <li class="list-items">Frozen</li>
+      <li class="list-items">Chipmunks</li>
+    </ul>
+  </div>
+  <!--
+  <div class="container">
+    <h1 id="main-heading">Favourite sports Franchise</h1>
+    <ul>
+      <li class="list-items">
+        
+        Forrest Gump</li>
+      <li class="list-items">Frozen</li>
+      <li class="list-items">Chipmunks</li>
+    </ul>
+  </div>
+  -->
+  <!--
+    <script src="app.js"></script> 
+  -->
+  <script src="traverse.js"></script>
+</body>
+</html>

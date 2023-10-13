@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Listeners</title>
+<style>
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+  }
+  
+  .container{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    padding: 10px;
+  }
+  #heading{
+    margin: 30px;
+  }
+  .boxes {
+    flex: 1;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+
+  }
+  .boxes button{
+    background-color: #0074d9;
+    border: none;
+    margin: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+</style>
+</head>
+<body>
+  <h1 id="main-heading">Event Listeners</h1>
+  <div class="container">
+    <div class="boxes box-1">
+      <h1 id="heading">Example 1</h1>
+      <button>Enter</button>
+    </div>
+    <div class="boxes box-2">
+      <h1 id="heading">Example 2</h1>
+      <button>Enter</button>
+    </div>
+    <div class="boxes box-3">
+      <h1 id="heading">Example 3</h1>
+      <button>Enter</button>
+    </div>
+
+  </div>
+</body>
+<script src="events.js"></script>
+</html>
