@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Probagation</title>
+  <style>
+    
+    .div2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 140px;
+      width: 120px;
+      border: 2px solid black;
+      padding: 20px;
+    }
+    .div1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      border: 2px solid black;
+      padding: 20px;
+    }
+    .button{
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      border: solid  black;
+      background: none;
+      display: block;
+    }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      
+    }
+
+  </style>
+</head>
+<body>
+  <div class="div2">
+    2
+    <div class="div1">
+      1
+      <!--<button>Click</button> -->
+      <a href="" class="button">Click</a>
+    </div>
+  </div>
+  
+</body>
+<script src="event-probagation.js"></script>
+</html>

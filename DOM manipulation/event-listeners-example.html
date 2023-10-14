@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Listeners Example</title>
+  <style>
+    body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+  }
+  .container{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .boxes {
+    flex: 1;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+
+  }
+  .hidden-content{
+    display: None;
+  }
+  .hidden-content.reveal-btn{
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <h1 id="main-heading">Event Listeners</h1>
+  <div class="container">
+    <button class="reveal-btn boxes">Reveal More</button>
+    <div class="hidden-content boxes">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam suscipit provident error corporis, id beatae tenetur minima quibusdam quaerat vero laboriosam praesentium doloribus! Cumque harum dignissimos blanditiis rerum, ipsa maiores?
+    </div>
+  </div>
+
+</body>
+<script src="event-listeners-example.js"></script>
+</html>
