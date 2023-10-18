@@ -1,4 +1,7 @@
-
+//naming confilct const cart = [];
+//import { cart as myCart } from "../data/cart.js";
+//const cart = [];
+import { cart } from "../data/cart.js";
 
 let productsHTML = '';
 
